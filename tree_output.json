@@ -1,0 +1,187 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "label": "public",
+              "type": "specifier"
+            },
+            {
+              "children": [],
+              "label": "static",
+              "type": "specifier"
+            },
+            {
+              "children": [],
+              "label": "boolean",
+              "type": "name"
+            }
+          ],
+          "label": "",
+          "type": "type"
+        },
+        {
+          "children": [],
+          "label": "CzyDodatnia",
+          "type": "name"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "label": "double",
+                          "type": "name"
+                        }
+                      ],
+                      "label": "",
+                      "type": "type"
+                    },
+                    {
+                      "children": [],
+                      "label": "x",
+                      "type": "name"
+                    }
+                  ],
+                  "label": "",
+                  "type": "decl"
+                }
+              ],
+              "label": "",
+              "type": "parameter"
+            }
+          ],
+          "label": "",
+          "type": "parameter_list"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "label": "x",
+                                  "type": "name"
+                                },
+                                {
+                                  "children": [],
+                                  "label": "\u003e",
+                                  "type": "operator"
+                                },
+                                {
+                                  "children": [],
+                                  "label": "0",
+                                  "type": "literal"
+                                }
+                              ],
+                              "label": "",
+                              "type": "expr"
+                            }
+                          ],
+                          "label": "",
+                          "type": "condition"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [],
+                                          "label": "true",
+                                          "type": "literal"
+                                        }
+                                      ],
+                                      "label": "",
+                                      "type": "expr"
+                                    }
+                                  ],
+                                  "label": "",
+                                  "type": "return"
+                                }
+                              ],
+                              "label": "",
+                              "type": "block_content"
+                            }
+                          ],
+                          "label": "",
+                          "type": "block"
+                        }
+                      ],
+                      "label": "",
+                      "type": "if"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [],
+                                          "label": "false",
+                                          "type": "literal"
+                                        }
+                                      ],
+                                      "label": "",
+                                      "type": "expr"
+                                    }
+                                  ],
+                                  "label": "",
+                                  "type": "return"
+                                }
+                              ],
+                              "label": "",
+                              "type": "block_content"
+                            }
+                          ],
+                          "label": "",
+                          "type": "block"
+                        }
+                      ],
+                      "label": "",
+                      "type": "else"
+                    }
+                  ],
+                  "label": "",
+                  "type": "if_stmt"
+                }
+              ],
+              "label": "",
+              "type": "block_content"
+            }
+          ],
+          "label": "",
+          "type": "block"
+        }
+      ],
+      "label": "",
+      "type": "function"
+    }
+  ],
+  "label": "",
+  "type": "unit"
+}
